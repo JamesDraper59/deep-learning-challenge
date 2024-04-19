@@ -32,7 +32,10 @@ This neural network is designed to be used as a tool for a nonprofit organizatio
 
 ![smaller_bin](https://github.com/JamesDraper59/deep-learning-challenge/assets/60665765/683bf1d2-689f-402f-8532-2e7137807dd8)
 
-* and finally, i altered the size of the bins in my data from the initial set, deciding to compress them to higher figures with less space and variance between them. this allowed my model to reach the desired target of .75 accuracy, therefore fulfilling the ask. 
+* and finally, i altered the size of the bins in my data from the initial set, deciding to compress them to higher figures with less space and variance between them. this allowed my model to reach the desired target of .75 accuracy, therefore fulfilling the ask show in this figure.
+
+![final_model_accuracy](https://github.com/JamesDraper59/deep-learning-challenge/assets/60665765/f39b86bb-14f6-409f-80a9-ad16ff8e184f)
+ 
 
 
 

@@ -4,12 +4,15 @@
 ### The Purpose: 
 This neural network is designed to be used as a tool for a nonprofit organization for predicting applicants with high chances of success to allocate funding to in hopes of creating a better method of selection for the organization.
 
-## Data Preprocessing
+# Data Preprocessing
 * This model is built to target the "IS_SUCCESSFUL" variable of the data frame
 * The "EIN" and "NAME" Columns are dropped initially to remove any non features for the model that can't be used for training or as categorical data
 * once "EIN" and "NAME" are dropped, every remaining variable in the data frame is usable as a feature for training and testing.
 
+# Results 
+
 ## Compiling, Training, and Evaluating the model
+
 ### Attempt 1
 ![attempt 1](https://github.com/JamesDraper59/deep-learning-challenge/assets/60665765/93cd401e-749f-43d7-9c35-da1e27c243de)
 
@@ -35,8 +38,11 @@ This neural network is designed to be used as a tool for a nonprofit organizatio
 * and finally, i altered the size of the bins in my data from the initial set, deciding to compress them to higher figures with less space and variance between them. this allowed my model to reach the desired target of .75 accuracy, therefore fulfilling the ask show in this figure.
 
 ![final_model_accuracy](https://github.com/JamesDraper59/deep-learning-challenge/assets/60665765/f39b86bb-14f6-409f-80a9-ad16ff8e184f)
- 
 
+# Summary
+
+## Overall Results:
+ The model overall performs to expectations and desired requirements. it reaches the demanded accuracy and maintains a simple design that isn't difficult to understand for any potential operators. as for any other model i'd reccomend for this task, Random Forest could potentially handle the data better as it typically is less influenced by statistical outliers and tends to not have issues with any heterogeneous features.
 
 
   
